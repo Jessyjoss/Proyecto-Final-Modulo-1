@@ -1,0 +1,110 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+/* styles.css */
+
+/* Configuración general */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #abebab;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+/* Tarjeta principal */
+.card {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Menú de enlaces */
+.social-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #e3e3e3de;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links a {
+    font-weight: bold;
+}
+
+/* Imagen y descripción */
+.img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.img img {
+    width: 500px;
+    height: 280px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+/*Diseño de la segunda imagen*/
+#layoutBodyContent img {
+    width: 300px;
+    height: 180px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+/*Diseño de la tecer imagen*/
+#Imagen3 img{
+    width: 300px;
+    height: 180px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+
+p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+#layoutFooter {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #272626;
+}
+
+#layoutFooter a {
+    color: #2fd32f;
+    text-align: center;
+    font-weight: bold;
+}
+
+
